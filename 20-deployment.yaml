@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx
   labels:
-    # these labels are replicaSet labels
+    # these labels are deployment labels
     purpose: dp-demo
     project: roboshop
 spec:
